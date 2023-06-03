@@ -1,0 +1,20 @@
+{
+  "name": "less-is-more",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/meltdeer/less-is-more.git",
+  "author": "meltdeer <wangrato@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:nav": "vuepress nav docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
