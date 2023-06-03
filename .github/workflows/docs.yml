@@ -47,5 +47,5 @@ jobs:
           # deploy the default output dir of vuepress
           build_dir: docs/.vuepress/dist
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
