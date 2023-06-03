@@ -47,5 +47,6 @@ jobs:
           # deploy the default output dir of vuepress
           build_dir: docs/.vuepress/dist
         env:
+          # Add https://github.com/meltdeer/blog/settings/secrets/actions (Repository secrets)
           GITHUB_TOKEN: ${{ secrets.VUEPRESS_TOCKEN }}
           

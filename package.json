@@ -1,8 +1,8 @@
 {
-  "name": "less-is-more",
+  "name": "blog",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/meltdeer/less-is-more.git",
+  "repository": "https://github.com/meltdeer/blog.git",
   "author": "meltdeer <wangrato@qq.com>",
   "license": "MIT",
   "devDependencies": {

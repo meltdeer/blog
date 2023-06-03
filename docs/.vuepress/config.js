@@ -4,7 +4,7 @@ let config = {
     title: 'LESS IS MORE',
     description: 'description',
     theme: "reco",
-    base: '/less-is-more/',
+    base: '/blog/',
     lang: "zh-CN",
     plugins: [
         "vuepress-plugin-auto-sidebar", {}
