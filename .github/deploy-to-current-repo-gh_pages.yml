@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: meltdeer/less-is-more@master
+      uses: meltdeer/blog@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: meltdeer/less-is-more
