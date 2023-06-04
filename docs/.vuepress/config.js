@@ -1,8 +1,8 @@
-const nav = require("./nav.js");
+// const nav_auto = require("./nav.js");
 
 let config = {
     title: 'LESS IS MORE',
-    description: 'description',
+    description: '',
     theme: "reco",
     base: '/blog/',
     lang: "zh-CN",
@@ -11,19 +11,38 @@ let config = {
     ],
     themeConfig: {
         lastUpdated: 'Last Updated',
-        nav,  
+        nav: [
+            { text: 'Home', link: '/', icon: 'reco-home' },  //text:导航标题内容，icon：图标样式
+            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+            {
+                "text": "Vuepress",
+                "items": [
+                  {
+                    "text": "Vuepress",
+                    "link": "/Vuepress/"
+                  },
+                  {
+                    "text": "问题跟踪",
+                    "link": "/Vuepress/问题跟踪/"
+                  }
+                ]
+              },
+              {
+                "text": "stm32",
+                "items": [
+                  {
+                    "text": "Stm32",
+                    "link": "/stm32/"
+                  }
+                ]
+              }
+        ], 
         displayAllHeaders: true,
         subSidebar: 'auto', //生成子侧边栏，放在页面的右侧
         smoothScroll: true,
         huawei: true, //首页可以显示 “华为” 文案
         // 博客配置
         blogConfig: {
-            home: {
-                location: 1,     // 在导航栏菜单中所占的位置，默认1
-                text: 'HOME',    // 默认文案 “首页”
-                link: '/index.html',
-                icon: 'reco-home'
-            },
             category: {
                 location: 2,     // 在导航栏菜单中所占的位置，默认2
                 text: 'Category' // 默认文案 “分类”
