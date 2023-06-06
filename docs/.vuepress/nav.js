@@ -1,14 +1,14 @@
 module.exports = [
   {
-    "text": "Vuepress",
+    "text": "Tools",
     "items": [
       {
-        "text": "Vuepress",
-        "link": "/Vuepress/"
+        "text": "Tools",
+        "link": "/Tools/"
       },
       {
-        "text": "问题跟踪",
-        "link": "/Vuepress/问题跟踪/"
+        "text": "Vuepress",
+        "link": "/Tools/Vuepress/"
       }
     ]
   },

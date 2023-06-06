@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # 使用包管理器初始化
- pnmp init -y
+ pnmp i
 
 # 构建 navigation
 # pnpm run docs:nav -f
