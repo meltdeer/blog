@@ -5,6 +5,6 @@ date: '2023-06-06'
 categories: [tool]
 ---
 
-[TOC]
+[[toc]]
 
-1. [Vuepress](/Tools/Vuepress/README.md)
+这个页面将会记录一些有趣的工具！

@@ -17,30 +17,20 @@ let config = {
             {
               "text": "Tools",
               "items": [
-                {
-                  "text": "Tools",
-                  "link": "/Tools/"
-                },
-                {
-                  "text": "Vuepress",
-                  "link": "/Tools/Vuepress/"
-                }
+                    { "text": "Vuepress", "link": "/Tools/Vuepress/" },
+                    { "text": "Davinci", "link": "/Tools/Davinci/" }
               ]
             },
             {
-              "text": "stm32",
+              "text": "STM32",
               "items": [
-                {
-                  "text": "Stm32",
-                  "link": "/stm32/"
-                }
+                { "text": "Stm32", "link": "/stm32/" }
               ]
             }
         ], 
         displayAllHeaders: true,
         subSidebar: 'auto', //生成子侧边栏，放在页面的右侧
         smoothScroll: true,
-        huawei: true, //首页可以显示 “华为” 文案
         // 博客配置
         blogConfig: {
             category: {
