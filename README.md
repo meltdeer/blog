@@ -1,0 +1,2 @@
+[![GitHubStars](https://img.shields.io/github/stars/RT-Thread/rt-thread?style=flat-square&logo=GitHub)](https://github.com/meltdeer/blog/stargazers)
+[![GitHub](https://img.shields.io/github/license/RT-Thread/rt-thread.svg)](https://github.com/meltdeer/blog/master/LICENSE)

@@ -146,11 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "33b4c1b2256d6e5e",
+  "active": "58b13e6d480a3c7e",
   "lastOpenFiles": [
+    "Tools/Davinci/README.md",
+    "2023-06-25.md",
+    "README.md",
     "Tools/README.md",
     "Tools/Vuepress/README.md",
-    "Tools/Davinci/README.md",
     "Tools/Davinci"
   ]
 }
